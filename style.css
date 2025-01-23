@@ -1,0 +1,167 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.learn-javascript {
+  width: 100%;
+  background-color: rgb(185, 185, 16);
+  overflow: hidden;
+}
+
+.learn-javascript .main-one {
+  padding: 20px 0;
+  position: relative;
+  left: -300px;
+  animation: move-around 10s infinite linear;
+  color: rgb(0, 0, 0);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+@keyframes move-around {
+  100% {
+    left: 100%;
+  }
+}
+
+.learn-javascript .main-one span {
+  font-size: 20px;
+  position: absolute;
+  bottom: 20px;
+  color: rgb(53, 53, 53);
+}
+
+.learn-javascript form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.learn-javascript form #dollar,
+.learn-javascript form #name,
+.learn-javascript .form-section-two form input,
+.learn-javascript .form-section-two form .input,
+.learn-javascript .form-section-two form .results div,
+.learn-javascript .form-section-two form .results section {
+  outline: 0;
+  padding: 10px;
+  background-color: aliceblue;
+  border: solid 5px rgb(78, 78, 219);
+  border-radius: 20px;
+  color: rgb(138, 40, 163);
+  font-weight: bold;
+}
+
+.learn-javascript form #result,
+.learn-javascript form #userName {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: rgb(78, 78, 219);
+  font-weight: bold;
+}
+
+.learn-javascript form #result span,
+.learn-javascript form #userName span {
+  color: rgb(138, 40, 163);
+}
+
+.learn-javascript .main-form {
+  display: flex;
+}
+
+.learn-javascript .form-section-two form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px;
+  gap: 20px;
+}
+
+.learn-javascript .form-section-two form .results {
+  width: 450px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.assign-13 {
+  text-align: center;
+  padding-top: 20px;
+}
+.assign-13 input {
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+.assign-13 input:focus {
+  outline: none;
+  border-color: #ccc;
+}
+.assign-13 [title="Current"] {
+  padding: 20px;
+  margin: 10px auto;
+  width: 610px;
+  background-color: #f1f0f0;
+  border-radius: 10px;
+}
+.assign-13 [title="Current"] button {
+  background-color: #ff5722;
+  padding: 5px 10px;
+  color: #ddd;
+  border: solid 1px #fff;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.assign-13 [title="Current"] button:active {
+  padding: 4px 9px;
+  cursor: progress;
+}
+.assign-13 .classes-list {
+  border-radius: 10px;
+
+  padding: 20px;
+  margin: 10px auto;
+  width: 610px;
+  background-color: #f1f0f0;
+}
+.assign-13 .classes-list h5 {
+  margin: 0 0 10px;
+  text-align: left;
+}
+.assign-13 .classes-list div span {
+  background-color: #00721c;
+  padding: 6px 10px 8px;
+  margin-right: 5px;
+  border-radius: 6px;
+  color: white;
+  display: inline-flex;
+}
+
+.our-element {
+  font-weight: bolder;
+  padding: 20px 5px;
+  position: relative;
+}
+
+.our-element span {
+  position: absolute;
+  left: 100px;
+  top: 20px;
+  animation: move-left 0.5s alternate-reverse infinite;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+@keyframes move-left {
+  to {
+    left: 110px;
+  }
+}
